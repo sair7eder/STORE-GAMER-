@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Store Gamer 5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1>🎮 Store Gamer 5</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Productos</a>
+      <a href="#">Ofertas</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Accesorios Gamer Premium</h2>
+    <p>Rendimiento, estilo y potencia en un solo lugar.</p>
+  </section>
+
+  <main class="product-grid" id="productGrid"></main>
+
+  <!-- Modal del carrito -->
+  <div class="modal" id="cartModal">
+    <div class="modal-content">
+      <button id="closeModal" class="close-btn">×</button>
+      <h3>🛒 Productos en tu carrito</h3>
+      <div id="cartItems"></div>
+      <div class="total-container">
+        <p>Total: <span id="cartTotal">$0.00</span></p>
+      </div>
+      <button id="checkoutBtn" class="pay-btn">Pagar</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Store Gamer 5 · Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
